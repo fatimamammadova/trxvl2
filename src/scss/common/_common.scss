@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+input:focus {
+    outline: none;
+}
+@font-face {
+    font-family: Netflix;
+    src: url('/trxvlvtp/public/NetflixSans-Regular.otf');
+}
+@font-face {
+    font-family: NetflixBold;
+    src: url('/trxvlvtp/public/NetflixSans-Bold.otf');
+}

@@ -1,0 +1,35 @@
+.navbar-bottom {
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    width: 100%;
+    padding: 16px 8px 24px 8px;
+    background-color: #fff;
+    ul {
+        width: 100%;
+        padding: 0;
+        @include Flexible(center,center,row);
+        li {
+            width: 25%;
+            a {
+                display: inline-block;
+                width: 100%;
+                color: #000;
+                font-family: Netflix;
+                font-size: 12px;
+                opacity: .4;
+                &.active {
+                    opacity: 1;
+                }
+                @include Flexible(center,center,column);
+                span {
+                    display: inline-block;
+                    margin-top: 7px;
+                    &.active {
+                        color: #2659C3;
+                    }
+                }
+            }
+        }
+    }
+}
